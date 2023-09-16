@@ -9,16 +9,16 @@ This repository contains code for deep learning on graphs using various graph ne
 Before running the code, ensure you have the following prerequisites installed:
 
 - Python (>=3.8)
-- PyTorch (>=2.0)
+- PyTorch w/ cuda support (>=2.0)
 - Pytorch Geometric (>=2.3)
 - Pandas
 - Argparse
-- Torchsampler
-- Optuna
-- Scikit Learn
-- RDKit
-- Numpy
-- 
+- Torchsampler (0.1.2)
+- Optuna (3.2.0)
+- Scikit Learn (>=1.2.2)
+- RDKit-pypi (2022.9.5)
+- Numpy (>=1.23.5)
+ 
 
 ### Installation
 
@@ -42,13 +42,13 @@ Usage
 
 --epochs: Number of training epochs. (required)
 
---batchsize: Batch size for training. (required)
+--batchsize: Batch size for training. 
 
---optimizer: Choose the optimizer for training: Adam, RMSprop, SGD. (required)
+--optimizer: Choose the optimizer for training: Adam, RMSprop, SGD. 
 
 --hidden_channels: Number of hidden channels (required for graph neural networks).
 
---learning_rate: Learning rate for optimization. (required)
+--learning_rate: Learning rate for optimization. 
 
 --heads: Number of attention heads (requried for GAT model only).
 
@@ -61,7 +61,7 @@ Usage
 Imbalance Options:
 You can enable imbalance handling with the following options:
 
---imbalance: Enable imbalance handling.
+--imbalance: Enable imbalanced dataset handling.
 
 --weight: Calculate weights for imbalanced data handling.
 
