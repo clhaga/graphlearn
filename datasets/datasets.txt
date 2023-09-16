@@ -1,0 +1,10 @@
+dataset1.csv - HIV-1 RT-RNase H inhibitors
+dataset2.csv - Leishmania major promastigote inhibitors
+dataset3.csv - Trypanosoma brucei hexokinase 1 inhibitors
+dataset4.csv - Tumor Hsp90 Inhibitors
+dataset5.csv - Inhibitors of the Sonic Hedgehog Signaling Pathway
+dataset6.csv - Inhibitors of miR-21
+dataset7.csv - Cancer stem cell inhibitors
+dataset8.csv - Inhibitors of furin cleavage
+dataset9.csv - Inhibitors of RecA Intein Splicing
+dataset10.csv - Inhibitors of SARS-CoV-2 3CLPro
